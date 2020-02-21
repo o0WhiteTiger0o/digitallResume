@@ -1,0 +1,198 @@
+aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: royalblue;
+  font-size: 1.5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-right: 5px solid whitesmoke;
+}
+
+aside img {
+  width: 300px;
+  height: 300px;
+  margin: 10%;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+aside a {
+  color: white;
+  height: 50px;
+  width: 100%;
+  text-decoration: none;
+  border-bottom: 2px solid whitesmoke;
+  border-top: 2px solid whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+aside a:hover {
+  background-color: #12AFED;
+}
+
+aside a:nth-child(3) {
+  border-top: 0px;
+}
+
+body {
+  font-size: 62.5%;
+  margin: 0%;
+}
+
+#main {
+  background-color: dodgerblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  #main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #main #left {
+    width: 100%;
+    height: 25vh;
+  }
+  #main #left img {
+    display: none;
+  }
+}
+
+#left {
+  background-color: darkblue;
+  width: 30%;
+  height: 100vh;
+}
+
+#right {
+  width: 70%;
+  height: 100%;
+}
+
+span h1 {
+  font-size: 5rem;
+  color: darkslateblue;
+}
+
+span p {
+  font-size: 2rem;
+  color: lightsteelblue;
+  padding: 2%;
+  text-align: justify;
+}
+
+span p#end {
+  text-align: center;
+}
+
+span li {
+  font-size: 2rem;
+  color: lightsteelblue;
+  text-align: justify;
+  border: 1px solid whitesmoke;
+  width: 400px;
+  height: 100px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 25px;
+  margin: 2%;
+}
+
+span div#mainSkills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+span a#project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: darkslateblue;
+  font-size: 2rem;
+  background-color: lightgray;
+  border: 1px solid whitesmoke;
+  border-radius: 25px;
+  -webkit-box-shadow: 5px 10px #888888;
+          box-shadow: 5px 10px #888888;
+  margin: 10px;
+}
+
+footer {
+  height: 35px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  background-color: navy;
+  color: gray;
+}
+/*# sourceMappingURL=index.css.map */

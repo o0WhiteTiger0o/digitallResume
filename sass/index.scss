@@ -1,0 +1,155 @@
+@import 'variables';
+
+
+aside {
+    display: flex;
+    background-color:royalblue ;
+    font-size: 1.5rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 5px solid whitesmoke;
+
+
+    img{
+        width: 300px;
+        height: 300px;
+        margin: 10%;
+        border-radius: 50%;
+        background-color: gray;
+    }
+    
+    
+    
+    a{
+        color: white;
+        height: $aOfNavH;
+        width: $aOfNavW;
+        text-decoration: none;
+        border-bottom: 2px solid whitesmoke;
+        border-top: 2px solid whitesmoke;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a:hover{
+        background-color: #12AFED;
+        
+    }
+
+    a:nth-child(3){
+        border-top: 0px;
+    }
+}
+
+body{
+    font-size: 62.5%;
+    margin:0%;
+    
+}
+
+#main{
+    background-color:dodgerblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    @media(max-width: 1000px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        #left{
+            width: 100%;
+            height:25vh;
+            img{
+                display: none;
+            }
+            
+        }
+        
+    }
+
+}
+
+#left{
+    background-color: darkblue;
+    width: 30%;
+    height: 100vh;
+
+}
+
+#right{
+    width: 70%;
+    height: 100%;
+}
+
+span{
+    h1{
+        font-size: 5rem;
+        color:	darkslateblue;
+    }
+    p{
+        font-size: 2rem;
+        color: 	lightsteelblue;
+        padding:2%;
+        text-align: justify;
+        
+        
+    }
+
+    p#end{
+        text-align: center;
+    }
+
+    li{
+        font-size: 2rem;
+        color: 	lightsteelblue;
+        text-align: justify;
+        border: 1px solid whitesmoke;
+        width: 400px;
+        height:100px;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+        margin: 2%;
+    }
+
+     div#mainSkills{
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: center;
+     }
+
+     a#project{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: darkslateblue;
+         font-size: 2rem;
+         background-color: lightgray;
+         border: 1px solid whitesmoke;
+         border-radius: 25px;
+         box-shadow: 5px 10px #888888;
+         margin: 10px;
+     }
+    
+     
+
+}
+
+footer{
+    height: 35px;
+    width: $aOfNavW;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: navy;
+    color: gray;
+}

@@ -94,6 +94,10 @@ body {
   #main #left img {
     display: none;
   }
+  #main #right {
+    width: auto;
+    height: auto;
+  }
 }
 
 #left {

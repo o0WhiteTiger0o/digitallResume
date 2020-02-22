@@ -61,6 +61,10 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        body{
+            width: auto;
+            height: auto;
+        }
         #left{
             width: 100%;
             height:25vh;
@@ -73,12 +77,23 @@ body{
             width:auto;
             height: auto;
             h1{
-                font-size:150%;
+                font-size:3rem;
             }
             p{
-                font-size: 120%;
+                font-size: 1.5rem;
             }
         }
+
+    @media(max-width: 500px){
+        #right{
+            h1{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
         
     }
 

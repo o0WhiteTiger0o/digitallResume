@@ -168,7 +168,7 @@ span li {
   overflow: hidden;
 }
 
-span div#mainSkills {
+span div#mainSkills, span div#profile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -216,7 +216,7 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   font-size: 1.5rem;
-  background-color: navy;
+  background-color: aquamarine;
   color: gray;
 }
 /*# sourceMappingURL=index.css.map */

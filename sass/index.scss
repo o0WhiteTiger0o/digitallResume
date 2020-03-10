@@ -145,7 +145,7 @@ span{
         overflow: hidden;
     }
 
-     div#mainSkills{
+     div#mainSkills, div#profile{
          display: flex;
          flex-direction: row;
          flex-wrap: wrap;
@@ -176,6 +176,6 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-    background-color: navy;
+    background-color: aquamarine;
     color: gray;
 }

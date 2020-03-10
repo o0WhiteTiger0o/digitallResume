@@ -24,6 +24,7 @@ aside img {
   margin: 10%;
   border-radius: 50%;
   background-color: gray;
+  overflow: hidden;
 }
 
 aside a {

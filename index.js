@@ -1,6 +1,6 @@
 const getMainSkill = document.querySelector('#mainSkills');
 const data = {
-    skills: ['HTML','CSS','LESS/SASS','JAVASCRIPT']
+    skills: ['HTML','CSS','LESS/SASS','JAVASCRIPT', 'GIT/GITHUB', 'DOM']
 }
 
 

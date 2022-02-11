@@ -153,6 +153,10 @@ p{
         width: auto;
         height: auto;
     }
+    #noidung{
+        width: auto;
+        height: auto;       
+    }
 
 
 
@@ -180,5 +184,10 @@ p{
     legend{
         width: auto;
         height: auto;
+    }
+
+    #noidung{
+        width: auto;
+        height: auto;       
     }
 }

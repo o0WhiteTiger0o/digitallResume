@@ -116,6 +116,9 @@ p{
     body {
 
         font-size: 1.5rem;
+        height: auto;
+        width:auto;
+        margin: auto;
 
 
         
@@ -127,22 +130,29 @@ p{
         height: 5rem;
 
     
-    
-    
     }
+
 
     .animation_box1{
         width: 2.5rem;
         height: 2.5rem;
-
-
     }
+
 
     img{
         width: 20rem;
         height: 20rem;
     }
 
+    fieldset{
+        width: auto;
+        height: auto;
+    }
+
+    legend{
+        width: auto;
+        height: auto;
+    }
 
 
 
@@ -162,10 +172,13 @@ p{
         height: 10rem;
     }
 
+    fieldset{
+        width: auto;
+        height: auto;
+    }
+
     legend{
-
-        width: 50%;
-        border-radius: 0.5rem;
-
+        width: auto;
+        height: auto;
     }
 }

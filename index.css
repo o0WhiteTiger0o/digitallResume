@@ -112,7 +112,7 @@ p{
     text-align: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     body {
 
         font-size: 1.5rem;
@@ -148,7 +148,7 @@ p{
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 640px) {
     body {
 
         font-size: 1rem;

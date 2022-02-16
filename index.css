@@ -180,6 +180,9 @@ p{
         height: auto;       
     }
 
+    #personal_information{
+        text-align: center;
+    }
 
 
 }
@@ -213,5 +216,9 @@ p{
         height: auto;  
         padding:0rem;
         margin: 0rem;     
+    }
+
+    #personal_information{
+        text-align: center;
     }
 }

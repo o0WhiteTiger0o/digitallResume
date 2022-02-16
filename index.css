@@ -31,6 +31,15 @@ a{
     text-decoration: none;
 }
 
+a:link, :visited, :active{
+    color: blue;
+}
+
+a:hover{
+    color: crimson;
+}
+
+
 h1{
     text-shadow: 2px 2px 5px red;
 }

@@ -14,13 +14,21 @@ body {
 
 }
 
-#icon, h1{
+#icon, h1, #personal_information{
     width: 100%;
     display: flex;
     justify-content: center;
 
 
 
+}
+
+#personal_information{
+    margin: 3%;
+}
+
+a{
+    text-decoration: none;
 }
 
 h1{
